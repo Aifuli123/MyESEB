@@ -1,0 +1,57 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        nihao 
+    </div>
+</body>
+</html>
+<script src="~/Scripts/jquery-1.8.2.min.js"></script>
+<script type="text/javascript">
+    function parents(name) {
+        this.Name = name;
+        this.SayName = function () {
+            alert(this.Name);
+        }
+    }
+
+    function child(sex, name) {
+        this.tempMethode = parents;
+        this.tempMethode(name);
+        this.Sex = sex;
+        this.SaySex = function () {
+            alert(this.Sex);
+        }
+    }
+
+    child.prototype = new parents('1');
+    var A = new child(11, 'a');
+    A.SayName();
+
+
+
+    //function Person(name, age, love) {
+    //    this.name = name;
+    //    this.age = age;
+    //    this.love = love;
+    //    this.say = function say() {
+    //        alert("姓名：" + name);
+    //    }
+    //}
+
+    ////call方式  
+    //function student(name, age) {
+    //    Person.call(this, name, age);
+    //}
+    //var stu = new student('student', 12)
+    //stu.say();
+</script>

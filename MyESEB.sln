@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyESEB", "MyESEB\MyESEB.csproj", "{AB3F9919-5370-423D-9425-0F5D9FE48DB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{526EC0C9-AC60-4C92-83C6-172FCF9C0EAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{FE1845D9-E365-49CA-8877-DFA4D9FC0279}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB3F9919-5370-423D-9425-0F5D9FE48DB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB3F9919-5370-423D-9425-0F5D9FE48DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB3F9919-5370-423D-9425-0F5D9FE48DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB3F9919-5370-423D-9425-0F5D9FE48DB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{526EC0C9-AC60-4C92-83C6-172FCF9C0EAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{526EC0C9-AC60-4C92-83C6-172FCF9C0EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{526EC0C9-AC60-4C92-83C6-172FCF9C0EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{526EC0C9-AC60-4C92-83C6-172FCF9C0EAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE1845D9-E365-49CA-8877-DFA4D9FC0279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE1845D9-E365-49CA-8877-DFA4D9FC0279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE1845D9-E365-49CA-8877-DFA4D9FC0279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE1845D9-E365-49CA-8877-DFA4D9FC0279}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
