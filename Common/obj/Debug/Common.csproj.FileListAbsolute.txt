@@ -3,3 +3,8 @@ D:\MyCode\MyESEB\Common\bin\Debug\Common.dll
 D:\MyCode\MyESEB\Common\bin\Debug\Common.pdb
 D:\MyCode\MyESEB\Common\obj\Debug\Common.dll
 D:\MyCode\MyESEB\Common\obj\Debug\Common.pdb
+E:\MyRepository\MyESEB\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+E:\MyRepository\MyESEB\Common\obj\Debug\Common.dll
+E:\MyRepository\MyESEB\Common\obj\Debug\Common.pdb
+E:\MyRepository\MyESEB\Common\bin\Debug\Common.dll
+E:\MyRepository\MyESEB\Common\bin\Debug\Common.pdb

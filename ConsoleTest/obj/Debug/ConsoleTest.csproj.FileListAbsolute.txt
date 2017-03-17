@@ -6,3 +6,11 @@ D:\MyCode\MyESEB\ConsoleTest\obj\Debug\ConsoleTest.exe
 D:\MyCode\MyESEB\ConsoleTest\obj\Debug\ConsoleTest.pdb
 D:\MyCode\MyESEB\ConsoleTest\bin\Debug\Common.dll
 D:\MyCode\MyESEB\ConsoleTest\bin\Debug\Common.pdb
+E:\MyRepository\MyESEB\ConsoleTest\bin\Debug\ConsoleTest.exe.config
+E:\MyRepository\MyESEB\ConsoleTest\obj\Debug\ConsoleTest.exe
+E:\MyRepository\MyESEB\ConsoleTest\obj\Debug\ConsoleTest.pdb
+E:\MyRepository\MyESEB\ConsoleTest\bin\Debug\ConsoleTest.exe
+E:\MyRepository\MyESEB\ConsoleTest\bin\Debug\ConsoleTest.pdb
+E:\MyRepository\MyESEB\ConsoleTest\bin\Debug\Common.dll
+E:\MyRepository\MyESEB\ConsoleTest\bin\Debug\Common.pdb
+E:\MyRepository\MyESEB\ConsoleTest\obj\Debug\ConsoleTest.csprojResolveAssemblyReference.cache

@@ -111,7 +111,7 @@ namespace Common
         {
             ThreadPool.QueueUserWorkItem(o => { this.WriteInformation(o as string); }, information);
 
-            ThreadPool.QueueUserWorkItem(l => { this.WriteInformation(l as string)});
+            ThreadPool.QueueUserWorkItem(l => { this.WriteInformation(l as string); });
         }
 
         public void WriteInformation(Exception error)
@@ -132,7 +132,7 @@ namespace Common
 
         public void WriteInformationWithSplitor(string splitor, params object[] informationList)
         {
-            StringBuilder sbContent = YanYuJian.ObjectExtension.ConcatValue(informationList, splitor, 200);
+            StringBuilder sbContent = ObjectExtension.ConcatValue(informationList, splitor, 200);
             if (sbContent.Length == 0)
             {
                 return;
@@ -142,7 +142,7 @@ namespace Common
 
         public void WriteInformationWithSplitor(string splitor, params string[] informationList)
         {
-            StringBuilder sbContent = YanYuJian.ObjectExtension.ConcatValue(informationList, splitor, 200);
+            StringBuilder sbContent = ObjectExtension.ConcatValue(informationList, splitor, 200);
             if (sbContent.Length == 0)
             {
                 return;
@@ -237,7 +237,7 @@ namespace Common
             {
                 return;
             }
-            StringBuilder sbContent = YanYuJian.ObjectExtension.ConcatValue(contents, splitor, 200);
+            StringBuilder sbContent = ObjectExtension.ConcatValue(contents, splitor, 200);
             if (sbContent.Length == 0)
             {
                 return;
